@@ -1,0 +1,42 @@
+.mstopnav{overflow: auto;-webkit-box-align: center;box-align: center;display: -webkit-box!important;display: box!important;}
+.mstopnav ul{display: -webkit-box;-webkit-overflow-scrolling:touch;padding:0 8px 8px 8px;}
+.mstopnav ul li{height:38px;line-height:38px;text-align:center;border-bottom: 2px #fff solid;padding: 0px 8px;display: block;position: relative;overflow: hidden;}
+.mstopnav ul li.on{border-bottom: 2px #7E56C6 solid; color: #7E56C6;}
+ 
+.defslider{ position:relative; overflow:hidden; margin:0 auto; background:#fff;z-index:10;}
+.defslider .hd{width:100%;position:absolute;z-index:50;height:16px; line-height:16px; right:0; bottom:5px;}
+.defslider .hd ul{ text-align:center;}
+.defslider .hd li{display: inline-block;vertical-align: top; width:8px; height:8px;text-indent:-9999px; overflow:hidden; margin:0 3px;background-position: center center;background-repeat: no-repeat;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAMFBMVEUAAACqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqobnPPZAAAAD3RSTlMA4VQGrInz21sD16aUXAcAkJj7AAAAZklEQVQI12NgYGDWFsvaZMAAAur/gaAIxJr6Hwwigcx4CPMrAwPTfyhQYDCEMYUZ+mHMvwz+MOYXBnkY8yNDPoz5DcH8z7AeoQChDckwhBVySBYjO4dhDoR5EtXpDMwt8h89gB4CAKcblUUQZ03fAAAAAElFTkSuQmCC");-webkit-background-size:100% 100%;background-size:100% 100%;}
+.defslider .hd li.on{width:8px; height:8px;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAM1BMVEUAAABJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmcnyDrIAAAAEHRSTlMAVAbgrInz5NtbA9emlFwHfPLIZQAAAGVJREFUGNNtkVsKwDAIBFdN807r/U9bSEMJ0fkcENcVE6YuGlsnxg9lXWRaql66cdUpp9vsnNUDAjidMjGKGm4EKwPESkFUiycjmjPuLnIjeeEf/0y/ENSxu1H9khdcgqhKKN87XnwgEvRQb8LSAAAAAElFTkSuQmCC");-webkit-background-size:100% 100%;background-size:100% 100%;}
+.defslider .bd{position:relative; z-index:10; }
+.defslider .bd li{position:relative; text-align:center; background:url(http://img.51msyc.com/wx/nimages/loading.gif) center center no-repeat; overflow:hidden;}
+.defslider .bd li .conpic{width: 100%;position: relative;padding-top:64%;text-align:center; }
+.defslider .bd li .conpic span{width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 2;background-repeat: no-repeat;-webkit-background-size: 100% 100%;background-size: 100% 100%;}
+
+.repdate{width: 70%;height:100px;background:rgba(255,255,255,0.8);position: absolute;top:50%;left:50%;margin: -50px 0 0 -35%;z-index: 10;}
+
+.vidslid{ position:relative; overflow:hidden; margin:0 auto; background:#fff;z-index:10;}
+.vidslid .pageState{position:absolute;z-index:50;right:30px; bottom:5px;color: #fff;}
+.vidslid .hd{width:100%;position:absolute;z-index:50;height:16px; line-height:16px; right:0; bottom:5px;}
+.vidslid .hd ul{ text-align:center;}
+.vidslid .hd li{display: inline-block;vertical-align: top; width:8px; height:8px;text-indent:-9999px; overflow:hidden; margin:0 3px;background-position: center center;background-repeat: no-repeat;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAMFBMVEUAAACqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqobnPPZAAAAD3RSTlMA4VQGrInz21sD16aUXAcAkJj7AAAAZklEQVQI12NgYGDWFsvaZMAAAur/gaAIxJr6Hwwigcx4CPMrAwPTfyhQYDCEMYUZ+mHMvwz+MOYXBnkY8yNDPoz5DcH8z7AeoQChDckwhBVySBYjO4dhDoR5EtXpDMwt8h89gB4CAKcblUUQZ03fAAAAAElFTkSuQmCC");-webkit-background-size:100% 100%;background-size:100% 100%;}
+.vidslid .hd li.on{width:8px; height:8px;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAM1BMVEUAAABJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmcnyDrIAAAAEHRSTlMAVAbgrInz5NtbA9emlFwHfPLIZQAAAGVJREFUGNNtkVsKwDAIBFdN807r/U9bSEMJ0fkcENcVE6YuGlsnxg9lXWRaql66cdUpp9vsnNUDAjidMjGKGm4EKwPESkFUiycjmjPuLnIjeeEf/0y/ENSxu1H9khdcgqhKKN87XnwgEvRQb8LSAAAAAElFTkSuQmCC");-webkit-background-size:100% 100%;background-size:100% 100%;}
+.vidslid .bd{position:relative; z-index:10; }
+.vidslid .bd li{position:relative; background:url(http://img.51msyc.com/wx/nimages/loading.gif) center center no-repeat; overflow:hidden;}
+.vidslid .bd li .conpic{width: 100%;position: relative;padding-top:60%;}
+.vidslid .bd li .conpic span{width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 2;background-repeat: no-repeat;-webkit-background-size: 100% 100%;background-size: 100% 100%;}
+.vidslid .bd li .conpic .text{position: absolute;padding:4px 8px;left:0;right:0;bottom: 0;background-color: rgba(0,0,0,0.5);color: #fff;z-index: 10;}
+.vidslid .bd li .conpic:after {width: 100%;height: 100%;position: absolute;content: "";right: 0;top: 0;background: url(http://img.51msyc.com/wx/nimages/nicon/video_play.png) no-repeat center 40%;background-size:50px 50px;z-index: 5;}
+
+
+.smalinav{display: -webkit-box;display: box;position: relative;}
+.smalinav p{width:100%;padding: 14px 0;}
+.smalinav .sicon{width: 36px;height: 36px;display: -webkit-box;display: box;background-position: center center;background-repeat: no-repeat;-webkit-background-size: 98%!important;background-size: 98%!important;}
+/* http://img.51msyc.com/wx/nimages/nicon/index_strategy_icon.png 鍘熷浘鏍� */
+.smalinav .strategy{background-image:url(http://img.51msyc.com/wx/nimages/nicon/home_strategy_icon.png)!important;}
+.smalinav .coupon{background-image:url(http://img.51msyc.com/wx/nimages/nicon/home_coupon_icon.png)!important;}
+.smalinav .group{background-image:url(http://img.51msyc.com/wx/nimages/nicon/home_group_icon.png)!important;}
+.smalinav .shopkeeper{background-image:url(http://img.51msyc.com/wx/nimages/nicon/home_shopkeeper_icon.png)!important;}
+
+
+

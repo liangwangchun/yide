@@ -1,0 +1,6 @@
+.restock-list .photo{width: 110px;height:110px;background-color:#f1f1f1 ; background-size: cover; -webkit-background-size: cover;}
+.restock-list .photo span{bottom:0px;left:0px;border:#7E56C6 solid 1px;padding:3px 5px;background-color:rgba(255,255,255,0.5);}
+.restock-list h3{  overflow:hidden;max-height:40px; overflow:hidden;word-break: break-all;display: -webkit-box;-webkit-line-clamp: 2;-webkit-box-orient: vertical;}
+.restock-list h3 em{ text-decoration:underline;}
+.tabNav span.on{color: #7E56C6;}
+.tabNav span.on:after{position:absolute;width:20px;  border-bottom:#7E56C6 solid 2px; left: 50%; content:"";margin-left: -10px; bottom: -15px;}

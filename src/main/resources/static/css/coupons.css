@@ -1,0 +1,29 @@
+.coupons-nav{height: 46px;line-height: 46px;background-color: #ffffff;}
+.coupons-nav p {height:44px;line-height: 44px;border-bottom: 2px #ffffff solid;}
+.coupons-nav p.on {border-bottom: 2px #7E56C6 solid;color: #7E56C6;}
+.coupons-list{padding: 10px;}
+.coupons-list li{min-height:100px;border-radius: 5px;position: relative;margin-bottom:10px;  }
+.coupons-list li.yes{border: 1px #CDC8D0 solid;border-left: 3px #7E56C6 solid;background-color: #e5ddf4;}
+.coupons-list li.yes:after {
+    width: 6px;position: absolute;top:0;left: -1px;bottom: 0;content: '';border-radius: 100px;z-index: 5;
+    background-image: radial-gradient( transparent 5px, transparent 5px, #7E56C6 5px, #7E56C6 5px );
+    background-repeat: repeat-y;background-position: 0px center;background-size: 12px 12px;
+}
+.coupons-list li.yes .qle{width:33%;padding: 0 3%;color: #7E56C6;vertical-align: text-bottom;font-size:3rem;text-align: center;line-height: initial;}
+
+.coupons-list li.no{border: 1px #ccc solid;border-left: 3px #bbb solid;background-color: #f1f1f1;}
+.coupons-list li.no:after {
+    width: 6px;position: absolute;top:0;left: -1px;bottom: 0;content: '';border-radius: 100px;z-index: 5;
+    background-image: radial-gradient( transparent 5px, transparent 5px, #bbb 5px, #bbb 5px );
+    background-repeat: repeat-y;background-position: 0px center;background-size: 12px 12px;
+}
+.coupons-list li.no .qle{width:33%;padding: 0 3%;color: #aaa;vertical-align: text-bottom;font-size:3rem;text-align: center;line-height: initial;}
+
+.coupons-list li .qri{width:55%;padding: 5px 0 8px 12px;}
+.coupons-list li .ps:before{content: '';width: 6px;height: 6px;background-color: #bbb;border-radius: 100px;display: inline-block;vertical-align: middle;margin:0 5px 3px 0;}
+.circles{width: 14px;height: 14px;position: absolute;border:1px solid #CDC8D0;border-right:1px solid transparent;border-top:1px solid transparent;border-radius: 50%;background-color: #f1f1f1;}
+.coupons-list li:before{position: absolute;border-right: 1px #CDC8D0 dashed;top:0;left:39%;bottom: 0;content: '';}
+.ctop{top:-9px;left:37%;transform: rotate(-45deg);}
+.cbot{bottom:-9px;left:37%;transform: rotate(135deg);}
+.dontuse{width:50px;height: 50px;background-image: url(http://img.51msyc.com/wx/nimages/icon_coupon_use.png);background-repeat: no-repeat;background-size:50px 50px;position: absolute;top:8px;right: 5px;z-index: 5;}
+.expired{width:50px;height: 50px;background-image: url(http://img.51msyc.com/wx/nimages/icon_coupon_expire.png);background-repeat: no-repeat;background-size:50px 50px;position: absolute;top:8px;right: 5px;z-index: 5;}

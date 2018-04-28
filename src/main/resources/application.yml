@@ -1,0 +1,24 @@
+server:
+  port: 80
+ 
+spring:
+#  resources:
+#    static-locations: classpath:/webapp/
+    
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-wz9t5tcvt5yb0m0fm.mysql.rds.aliyuncs.com:3306/onion?useUnicode=true&characterEncoding=UTF-8&useSSL=true
+    username: beauti
+    password: 2Beauti_msyc334
+
+#  mvc:
+#    view:
+#      prefix: classpath:/webapp/
+#      suffix: .html
+      
+#mybatis      
+mybatis:
+  type-aliases-package: com.yide.boot.web.core.domain
+  mapper-locations: classpath:com.yide.boot.web.core.mapper/*.xml
+  config-location: classpath:mybatisConfig.xml
+    

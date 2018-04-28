@@ -1,0 +1,26 @@
+*{padding:0px;margin:0px;}html,body{height:100%;overflow: hidden;overflow-x:hidden;overflow-y:hidden;background-color: #FFFFFF }
+.sqbody{background:url(http://img.51msyc.com/wx/nimages/sqimg/sqbg.png) left top;background-size:15% auto;}                          
+.sqbox{width: 100%;min-height: 100%;max-height: 100%;position: absolute;top: 0;left: 0;border: 0;display:-webkit-box!important;display:-moz-box!important;display:box!important;-webkit-box-orient: vertical;box-orient: vertical;z-index: 0;}
+
+.sqbj-top{width: 12%;height: 8%;background:url(http://img.51msyc.com/wx/nimages/sqimg/sqbj01.png) no-repeat left top;background-size:100% 100%;position: absolute;top:13px;left:13px;z-index: 5;}
+.sqbj-right{width: 12%;height: 8%;background:url(http://img.51msyc.com/wx/nimages/sqimg/sqbj02.png) no-repeat left top;background-size:100% 100%;position: absolute;top:13px;right:13px;z-index: 5;}
+.sqbj-bottom{width: 12%;height: 8%;background:url(http://img.51msyc.com/wx/nimages/sqimg/sqbj03.png) no-repeat left top;background-size:100% 100%;position: absolute;right:13px;bottom:13px;z-index: 5;}
+.sqbj-left{width: 12%;height: 8%;background:url(http://img.51msyc.com/wx/nimages/sqimg/sqbj04.png) no-repeat left top;background-size:100% 100%;position: absolute;left:13px;bottom:13px;z-index: 5;}
+
+.sqwrap{top: 15px;left: 15px;right: 15px;bottom: 15px;position: absolute;z-index: 5;border: 1px #7E56C6 solid;}
+.sqlogo{width:90%!important;z-index: 20;margin: 6% auto 0 auto;}
+.sqwc02{width:90%;height: auto;}
+.sqwc03{width:90%;height: 20%;display:-webkit-box!important;display:-moz-box!important;display:box!important;}
+.sqwc04{width:90%;height: 25%;display:-webkit-box!important;display:-moz-box!important;display:box!important;}
+.sqwc05{width:90%;height: 8%;display:-webkit-box!important;display:-moz-box!important;display:box!important;}
+.sqcons{top:0;left: 0;right: 0;bottom: 0;position: absolute;min-height: 100%;max-height: 100%;z-index: 8;}
+.sqzdy{background:url(http://img.51msyc.com/wx/nimages/sqimg/sqzdjy.png) no-repeat left top;background-size:100% 100%; margin: 12% auto 0 auto;}
+.sqtype{margin: 3% auto 0 auto;overflow: hidden;}
+
+.sqsyd{width:90%;margin: 0 5%;overflow: hidden;}
+.sqtime{margin: 3% auto;text-align: left;}
+.sqtime em{padding: 0 3px;border-bottom: 1px #999 solid;}
+
+
+.sqgs{width:50%;height: 8%;position: absolute;left: 5%;bottom:10px;z-index: 20;background:url(../nimages/sqimg/sqsgs.png) no-repeat left top;background-size:50% auto;}
+.sqyz{width:50%;height: 12%;position: absolute;right: 8%;bottom:5px;z-index: 20;background:url(../nimages/sqimg/sqsyz.png) no-repeat right top;background-size:68% auto;}

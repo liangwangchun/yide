@@ -1,0 +1,8 @@
+
+.bg-packet{ position: absolute;  z-index: 0; height:100%;top: 0; left: 0; right: 0px; bottom: 0;background-size:100%;-webkit-background-size:100%; }
+.packet-btn{ width: 76%; position: absolute; bottom: 50px; left: 10px;z-index: 11; margin-left:-38%;left:50%; }
+.packetBox{ width: 80%; margin-left: -40%; position: absolute; z-index: 601; left:50%;background: #fff; }
+.bg-packet .tips{background-color: rgba(0 , 0 , 0 ,0.5); }
+.packetBox .colsed{ width:28px; height: 28px; background-image: url(../nimages/packet/close.png); position: absolute;top: -40px; right:0; background-size:cover;-webkit-background-size:cover;  }
+.packetMask{ background-color: rgba(0 , 0 , 0 ,0.5);position: absolute;  z-index: 0; height:100%;top: 0; left: 0; right: 0px; bottom: 0; z-index: 600}
+.packetBox img{width: 100%;}            

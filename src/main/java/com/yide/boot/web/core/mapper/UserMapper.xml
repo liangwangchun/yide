@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.yide.boot.web.core.mapper.UserMapper" >
+  <resultMap id="BaseResultMap" type="com.yide.boot.web.core.domain.User" >
+    <id column="USER_ID" property="userId" jdbcType="BIGINT" />
+    <result column="USER_CODE" property="userCode" jdbcType="VARCHAR" />
+    <result column="USER_NAME" property="userName" jdbcType="VARCHAR" />
+    <result column="USER_FULL_NAME" property="userFullName" jdbcType="VARCHAR" />
+    <result column="USER_PASSWORD" property="userPassword" jdbcType="VARCHAR" />
+    <result column="USER_PHONE" property="userPhone" jdbcType="VARCHAR" />
+    <result column="USER_TYPE" property="userType" jdbcType="SMALLINT" />
+    <result column="USER_STATUS" property="userStatus" jdbcType="SMALLINT" />
+    <result column="USER_DEPARTMENT_ID" property="userDepartmentId" jdbcType="BIGINT" />
+    <result column="USER_EMAIL" property="userEmail" jdbcType="VARCHAR" />
+    <result column="USER_REMARK" property="userRemark" jdbcType="VARCHAR" />
+    <result column="USER_TEL" property="userTel" jdbcType="VARCHAR" />
+    <result column="USER_STORE_ID" property="userStoreId" jdbcType="BIGINT" />
+    <result column="USER_MEMBER_ID" property="userMemberId" jdbcType="BIGINT" />
+  </resultMap>
+    <sql id="Base_Column_List" >
+    USER_ID, USER_CODE, USER_NAME, USER_FULL_NAME, USER_PASSWORD, USER_PHONE, USER_TYPE, 
+    USER_CREATE_USER_ID, USER_CREATE_TIME, USER_MODIFY_USER_ID, USER_MODIFY_TIME, USER_STATUS, 
+    USER_DEPARTMENT_ID, USER_EMAIL, USER_REMARK, USER_TEL, USER_STORE_ID, USER_MEMBER_ID
+  </sql>
+  
+    <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
+    select 
+    <include refid="Base_Column_List" />
+    from user_rec
+    where USER_ID = #{userId,jdbcType=BIGINT}
+  </select>
+  
+  <select id="findUser" resultMap="BaseResultMap">
+  	select * from user_rec limit 10
+  </select>
+  
+</mapper>

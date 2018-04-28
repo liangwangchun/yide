@@ -1,0 +1,73 @@
+@charset "utf-8";
+.idxsearch{ position:absolute;top:10px;left:10px;right:10px; z-index:50; background-color:rgba(255,255,255,0.85); padding:8px 12px; border-radius:20px;}
+.idxsearch .soinput{height:20px; line-height:20px; padding-left: 32px; border:0; color: #999;background:url(http://img.51msyc.com/wx/nimages/icon_mall_sogray.png) 6px center no-repeat;-webkit-background-size: 18px 18px;background-size: 18px 18px;}
+/*首页焦点图*/
+
+.idxfocus{ position:relative; overflow:hidden; margin:0 auto; background:#fff;z-index:10;}
+.idxfocus .hd{width:100%;position:absolute;z-index:50;height:16px; line-height:16px; right:0; bottom:5px;}
+.idxfocus .hd ul{ text-align:center;}
+.idxfocus .hd li{display: inline-block;vertical-align: top; width:8px; height:8px;text-indent:-9999px; overflow:hidden; margin:0 3px;background-position: center center;background-repeat: no-repeat;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUBAMAAAB/pwA+AAAAMFBMVEUAAACqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqobnPPZAAAAD3RSTlMA4VQGrInz21sD16aUXAcAkJj7AAAAZklEQVQI12NgYGDWFsvaZMAAAur/gaAIxJr6Hwwigcx4CPMrAwPTfyhQYDCEMYUZ+mHMvwz+MOYXBnkY8yNDPoz5DcH8z7AeoQChDckwhBVySBYjO4dhDoR5EtXpDMwt8h89gB4CAKcblUUQZ03fAAAAAElFTkSuQmCC");-webkit-background-size:100% 100%;background-size:100% 100%;}
+.idxfocus .hd li.on{width:8px; height:8px;background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAMAAAC6V+0/AAAAM1BMVEUAAABJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmdJDmcnyDrIAAAAEHRSTlMAVAbgrInz5NtbA9emlFwHfPLIZQAAAGVJREFUGNNtkVsKwDAIBFdN807r/U9bSEMJ0fkcENcVE6YuGlsnxg9lXWRaql66cdUpp9vsnNUDAjidMjGKGm4EKwPESkFUiycjmjPuLnIjeeEf/0y/ENSxu1H9khdcgqhKKN87XnwgEvRQb8LSAAAAAElFTkSuQmCC");-webkit-background-size:100% 100%;background-size:100% 100%;}
+.idxfocus .bd{position:relative; z-index:10; }
+.idxfocus .bd li{position:relative; text-align:center; background:url(http://img.51msyc.com/wx/nimages/nopic.jpg) center center #F5F5F5 no-repeat; overflow:hidden;}
+.idxfocus .bd li .conpic{position: relative;width: 100%;position: relative;padding-top:125%;background-repeat:no-repeat; background-position:center center; background-size:100% 100%; }
+.idxfocus .bd li .conpic span{width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 2;background-repeat: no-repeat;-webkit-background-size: 100% 100%;background-size: 100% 100%;}
+
+/*杂志列表*/
+.idxmagazbox{display:block; background:#FFFFFF;}
+.idxmagazbox .tabnav{ position: relative;padding: 5px 0;}
+.idxmagazbox .tabnav li{width:100%;height:38px;line-height: 38px; border-bottom:2px #FFFFFF solid;}
+.idxmagazbox .tabnav li.on span{height:38px;line-height: 38px;display: block;margin: 0 5px; border-bottom:2px #7E56C6 solid;color: #7E56C6;}
+.idxmagazbox .tabcon{overflow: hidden;background-color:#f2f2f2;}
+.idxmagazbox .tabcon .tabart{display: block;}
+.idxmagazbox .tabcon li{background-color:rgb(255,255,255);}
+.idxmagazbox .tabcon li .imgbox{width: 100%;position: relative;padding-top: 64%;}
+.idxmagazbox .tabcon li .imgbox .spanimg {width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 2;background-repeat: no-repeat;-webkit-background-size: 100% 100%;background-size: 100% 100%;}
+.magazone .imgbox .spantxt{width: 100%;height: 100%;position: absolute;top: 0;left: 0;bottom:0;z-index: 10;background-color:rgba(0,0,0,0.5);}
+.magazone .gobut{ color:#fff; padding:0 10px; height:30px; line-height:30px;}
+.magazone .godslist{overflow: auto;-webkit-box-align: center;box-align: center;display: -webkit-box!important;display: box!important;}
+.magazone .godslist dl{height: 145px;display: inline-block;white-space: nowrap;overflow: hidden;margin: 5px 10px 5px 5px;}
+.magazone .godslist dl dd{width: 130px;height: 100%;display: inline-block!important;position: relative;vertical-align: top;}
+.magazone .godslist dl dd .ddimg{margin: 7px;padding: 0 10px;display: block;}
+.magazone .godslist dl dd .ddimg:after {width: 200%;height: 200%;content: " ";position: absolute;top: 0;left: 0;border: 1px solid #ebebeb;
+    -webkit-transform: scale(0.5);-ms-transform: scale(0.5);transform: scale(0.5);
+    -webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;
+}
+.magazone .godslist dl dd img{width: 100%!important;}
+.magazone .godslist dl dd:last-child{margin-right:0px;}
+.magazone .godslist::-webkit-scrollbar {width: 0px;height: 0px;background-color:rgba(255,255,255,0);}
+
+.magaztwo .imgbox{width: 100%;position: relative;padding-top: 56%;}
+.magaztwo .imgbox span {width: 100%;height: 100%;position: absolute;top: 0;left: 0;z-index: 2;background-repeat: no-repeat;-webkit-background-size: 100% 100%;background-size: 100% 100%;}
+/*杂志详情*/
+.magazine-related{ top:50px; z-index: 260;}
+.magazine-related ul{ background-color:rgba(255,255,255,0.9); z-index: 50;position: absolute;left: 0; top: 0;}
+.magazine-related ul li{ height:50px;}
+.magazine-related ul li .btn a{ border:solid 1px #666;}
+.magazine-related ul li .photo{ width:50px!important; height:50px;}
+.magazine-related ul li img{border: 1px #E7E7E7 solid;}
+.magazinemask {width: 100%;height: 100%;position: absolute;left: 0; top: 0;background-color:rgba(0,0,0,0.5);z-index:20;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

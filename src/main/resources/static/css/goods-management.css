@@ -1,0 +1,61 @@
+/*navlist*/
+.shopnaverbar{width:100%;height:56px;  z-index: 200; position: fixed!important;  left: 0;  top:50px;overflow: hidden;  -webkit-box-align: center;  box-align: center;  display: -webkit-box!important;display: box!important;   }
+.navbox{ min-width: 320px;max-width: 640px;  margin: 0 auto;background:#f7f7f7;display: -webkit-box;  display: box;-webkit-box-orient: vertical;box-orient: vertical;  -webkit-box-pack: center;  box-pack: center;  position: relative;  -webkit-box-flex: 1;  box-flex: 1;
+-webkit-flex: 1;  flex: 1;  display: -webkit-box!important; height:56px;  height: 100%;  white-space: nowrap;  overflow: hidden;}
+.mschildrens{-webkit-transition-timing-function: ease-out;transition-timing-function: ease-out;-webkit-transition: -webkit-transform .3s ease; transition: -webkit-transform .3s ease;transition: transform .3s ease;}
+.navlist{display:table-cell;  height: 100%;  white-space: nowrap; position: relative }
+.navlist li{display: table-cell; padding:6px 12px;color:#252525; position: relative}
+.navlist em{ display: block; margin-top: 5px;}
+.navlist li.on{color: #FFF;background: #7E56C6;}
+.navlist li .b_line{ position: relative; width: 100%;}
+.navlist li:after{border-bottom: #999 solid 1px; content: ''; position:absolute; width:50%; display: block; left: 25%; top:30px;-webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scaleY(0.5);-ms-transform: scaleY(0.5);transform: scaleY(0.5);}
+.navlist .on:after{border-bottom:#fff solid 1px; content: ''; position:absolute; width:50%; display: block; left: 25%;top:30px;-webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scaleY(0.5);-ms-transform: scaleY(0.5);transform: scaleY(0.5);}
+.soldout1:after {width: 100%;height: 100%;position: absolute;content: "";right: 0;top: 0;background: url(http://img.51msyc.com/wx/nimages/soldout_1.png) no-repeat center center rgba(0,0,0,0.15);background-size: 25% 50%;z-index: 10;}
+.soldout2:after {width: 100%;height: 100%;position: absolute;content: "";right: 0;top: 0;background: url(http://img.51msyc.com/wx/nimages/soldout_2.png) no-repeat center center rgba(0,0,0,0.15);background-size: 25% 50%;z-index: 10;}
+.soldout3:after {width: 100%;height: 100%;position: absolute;content: "";right: 0;top: 0;background: url(http://img.51msyc.com/wx/nimages/soldout_3.png) no-repeat center center rgba(0,0,0,0.15);background-size: 25% 50%;z-index: 10;}
+.soldout4:after {width: 100%;height: 100%;position: absolute;content: "";right: 0;top: 0;background: url(http://img.51msyc.com/wx/nimages/soldout_4.png) no-repeat center center rgba(0,0,0,0.15);background-size: 25% 50%;z-index: 10;}
+.soldout5:after {width: 100%;height: 100%;position: absolute;content: "";right: 0;top: 0;background: url(http://img.51msyc.com/wx/nimages/soldout_5.png) no-repeat center center rgba(0,0,0,0.15);background-size: 25% 50%;z-index: 10;}
+.soldout7:after {width: 100%;height: 100%;position: absolute;content: "";right: 0;top: 0;background: url(http://img.51msyc.com/wx/nimages/soldout_7.png) no-repeat center center rgba(0,0,0,0.15);background-size: 25% 50%;z-index: 10;}
+.soldoutKP:after {width: 100%;height: 100%;position: absolute;content: "";right: 0;top: 0;background: url(http://img.51msyc.com/wx/nimages/soldout-KP.png) no-repeat center center rgba(0,0,0,0.15);background-size: 25% 50%;z-index: 10;}
+.tipbar{width: 40px;height: 18px;border-radius: 3px; background: #7E56C6;display: inline-block;color: white;font-size: 1.2rem;text-align: center;}
+.arrow-left {width: 0px;height: 0px;border-bottom: 5px solid transparent; border-top: 5px solid transparent;border-left: 5px solid #7E56C6;font-size: 0px;line-height: 0px;vertical-align: middle;}
+/*select*/
+.ycsp-select{ position: fixed!important; width: 100%;left: 0; top: 106px;z-index: 50}
+/*goodlist*/
+.godslist li{ margin-top: 10px; background:#fff;}
+.godslist li  .imgBox{ width: 100%;  position: relative;  padding-top: 50%;}
+.godslist li  .imgShow{ width: 100%; height:100%; background-size:cover;display: block;position:absolute; top:0;left: 0;  z-index: 2;  background-repeat: no-repeat;}
+.ycsp-select ul{min-width: 320px;max-width: 640px;  margin: 0 auto;  background:#fff;position: relative;}
+.ycsp-select ul:before{width: 100%;position:absolute;left:0;bottom:0;height: 1px; display: block; content: ''; background:#e0e0e0;}
+.ycsp-select li{position: relative;height: 20px; padding: 12px 0;}
+.ycsp-select li.brLine:before{ position:absolute; width: 1px; height: 20px; top: 12px; right: 0; background:#ddd; display: block; content: '';-webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scaleX(0.5);-ms-transform: scaleX(0.5);transform: scaleX(0.5);}
+.ycsp-select li .iconbox{ width:6px; padding-left:5px; height:10px; display: inline-block; position: relative }
+.ycsp-select li .icon{width:4px;height: 4px; position: absolute; display: block;  border-right:#666 solid 1px; border-bottom:#666 solid 1px;}
+.ycsp-select li .icon-up{  top:2px; -webkit-transform:rotate(-135deg);}
+.ycsp-select li .icon-down{ bottom:0;-webkit-transform:rotate(45deg);}
+.ycsp-select li.on{ color: #7E56C6}
+.ycsp-select li.on .icon{ border-right:#d2d2d2 solid 1px; border-bottom:#d2d2d2 solid 1px;}
+.ycsp-select li.on .act{border-right:#7E56C6 solid 1px; border-bottom:#7E56C6 solid 1px;}
+
+.goodsmannage-list .photo{ width:90px; height: 90px; overflow:hidden; background-color: #f1f1f1;}
+.goodsmannage-list .doubt_icon{ width: 12px; height: 12px; background-image: url("../nimages/support_icon.png"); background-size:cover; -webkit-background-size: cover}
+.goodsmannage-list .select-variety{ bottom: 0px; left:0; width: 88px;z-index:11; background-color: rgba(241,241,241,0.7); border: #666 solid 1px; color: #666; padding: 3px 0; }
+.goodsmannage-list .goodsVariety{ padding: 5px; }
+.msheader .re{ width: 100px; line-height: 50px; right: 50px; top: 0px; text-align: right;}
+.goodsmannage-list dl{ background-color: #f1f1f1;border: 6px #fff solid;}
+.goodsmannage-list dd{position: relative; padding:5px 10px; display:block; float: left; margin: 5px;}
+.goodsmannage-list dd:after {width: 200%;height: 200%;content: " ";position: absolute;top: 0;left: 0;border: 1px solid #333;
+    -webkit-transform: scale(0.5);-ms-transform: scale(0.5);transform: scale(0.5);
+    -webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;
+    box-sizing: border-box;border-radius: 10px;
+}
+.goodsmannage-list .soldout1:after,.goodsmannage-list .soldout2:after,.goodsmannage-list .soldout3:after,.goodsmannage-list .soldout4:after,.goodsmannage-list .soldout5:after,.goodsmannage-list .soldout7:after{background-size: 70% 70%!important;} 
+
+
+.varietyBtn i{position:relative; width: 25px; }
+.varietyBtn.up{color:#7E56C6;border:#7E56C6 solid 1px; }
+.varietyBtn i:after{position:absolute;content:"";width:6px;height:6px;right:10px;}
+.varietyBtn.down i:after{-webkit-transform:rotate(135deg);-webkit-transform:rotate(135deg);border-top:#333 solid 1px;border-right:#333 solid 1px;top:4px;}
+.varietyBtn.up i:after{-webkit-transform:rotate(-45deg);-webkit-transform:rotate(-45deg);border-top:#7E56C6 solid 1px;border-right:#7E56C6 solid 1px;top:8px;}
+.goodsVariety .on{background-color:#7E56C6; color: #fff; position: relative}
+.goodsVariety .on:after{border: 1px solid #7E56C6;}

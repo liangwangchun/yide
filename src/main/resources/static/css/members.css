@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+.msmembg{ background:#1F1A36;}
+.msuserbox{width:100%;height: 44px;position: absolute;top: 0; left:0;z-index: 200;}
+.memaubgs {display: -webkit-box;display: box;background-position:center center;background-repeat: no-repeat;-webkit-background-size:55%!important;background-size:50%!important;}
+.msmsgtis{width:9px;height:9px; background-color:red; border:2px #7159b3 solid; position:absolute; top:9px; right:10px; display:block;}
+.msmsg{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_message.png);}
+.memtoptab{height:34px; line-height:34px;border: 1px rgba(255,255,255,0.3) solid; border-radius: 4px; margin-top: 8px; display: inline-block; overflow: hidden;}
+.memtoptab p{width:80px; display: block;text-align: center;float: left;}
+.memtoptab p.on{background-color: rgba(255,255,255,0.3);}
+/* 头像部分 */
+.msmemtop{ background-image: url(http://img.51msyc.com/wx/nimages/user/memberbg.jpg); background-repeat:no-repeat; background-position:top center; min-height:300px; background-size:100% 100%;}
+.msphoto{width:100px;height:100px; border:5px rgba(255,255,255,0.2) solid; margin:60px auto 0 auto;}
+.msphoto img{width:94px!important;height:94px!important;border:3px rgba(255,255,255,1) solid;}
+.msphoto .edit{width:28px;height:28px;-webkit-background-size:70%!important;background-size:70%!important; display:block; position:absolute; right:10px;bottom:-5px;background-color:rgb(255,255,255);background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAMAAAAM7l6QAAAAZlBMVEUAAACOSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI6OSI4I5v6FAAAAIXRSTlMAAyL73bV3TBoU9tU4DPHr5K+kmYxuMcesg2dbQiq+gmEhjmuAAAAAr0lEQVQoz73SyRKDIBAEUFFRUHHf4pJk/v8ngxD0kNZTyr4+oJqp8f4fVREX58yJKPRPOaLNJcZ29V6b11AbKn2v1RwANBAKfYhSoA8i63XRo1I2qWSgeUcuI3h52rUEd+ddC6DxoSvQwGkOOi+J0yT71ezQBWjuNIjBl6orFUoNX57RoJ9KpkbfQFlJnBmfgG7z0C5CipDaXjXzO6jSjqu5WLycRxnDPIxdr+n+fAD3OBd6jFFASAAAAABJRU5ErkJggg=="); background-repeat:no-repeat; background-position:center center;}
+.msmemtop .logistics{ padding:30px 10px 10px 10px;display: -webkit-box;display: box;}
+.msmemtop .logistics .scale:before {width:1px;height:100%;content: " ";position: absolute;top: 0;right:-1px;border-right: 1px solid rgba(255,255,255,0.2);
+  -webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;
+  -webkit-transform: scaleX(0.5);-ms-transform: scaleX(0.5);transform: scaleX(0.5);
+}
+.myplace{width: 60px;height: 60px;background: url(http://img.51msyc.com/wx/nimages/shop_korea_icon.png) no-repeat left bottom;background-size:100% auto;position: fixed;top:20%;right: 0;z-index: 500;}
+/* 店主收入 */
+.msincome{padding:0px 10px;display: -webkit-box;display: box;}
+.msincome .scale:before {width:1px;height:100%;content: " ";position: absolute;top: 0;right:-1px;border-right: 1px solid rgba(255,255,255,0.1);
+  -webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;
+  -webkit-transform: scaleX(0.5);-ms-transform: scaleX(0.5);transform: scaleX(0.5);
+}
+.scalebot:after {height: 1px;content: " ";position: absolute;left:10px;bottom:-1px;right:10px;border-bottom: 1px solid rgba(255,255,255,0.1);
+  -webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;
+  -webkit-transform: scaleY(0.5);-ms-transform: scaleY(0.5);transform: scaleY(0.5);}
+  
+/* 菜单功能列表 */
+.msmenulist{ padding:20px 10px 10px 10px;}
+.msmenulist ul:after {width: 100%;height: 1px;content: " ";position: absolute;left: 0;bottom: -1px;border-bottom: 1px solid  rgba(255,255,255,0.15);-webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scaleY(0.5);-ms-transform: scaleY(0.5);transform: scaleY(0.5);}
+.msmenulist li{ width:50%; float:left;display: -webkit-box;display: box;position: relative;}
+.msmenulist li:before {width: 100%;height: 1px;content: " ";position: absolute;left: 0;top: -1px;border-top: 1px solid  rgba(255,255,255,0.15);-webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scaleY(0.5);-ms-transform: scaleY(0.5);transform: scaleY(0.5);}
+.msmenulist li:after {width:1px;height:100%;content: " ";position: absolute;top: 0;right:-1px;border-right: 1px solid rgba(255,255,255,0.1);-webkit-transform-origin: 0 0;-ms-transform-origin: 0 0;transform-origin: 0 0;-webkit-transform: scaleX(0.5);-ms-transform: scaleX(0.5);transform: scaleX(0.5);}
+.msmenulist li:nth-child(2n):after{width:0px;height:100%;border-right:0px solid rgba(255,255,255,0.1);}
+.msmenulist li>div{padding:18px 0;opacity: 0.7;}
+.msmenulist li>div em{width:30px;height:30px;display: -webkit-box;display: box;background-position:center center;background-repeat: no-repeat;-webkit-background-size:90%!important;background-size:90%!important;}
+.msallorder{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_allorder.png);}
+.msfavorite{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_favorite.png);}
+.msshopkeeper{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_shopkeeper.png);}
+.mshelp{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_help.png);}
+
+.mscontrol{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_control.png);}
+.msmaterial{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_material.png);}
+.msorder{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_order.png);}
+.msmoney{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_money.png);}
+.msstatis{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_statistics.png);}
+.msactivity{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_activity.png);}
+.msinfos{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_info.png);}
+.msexits{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_exit.png);}
+.msletter{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_letter.png);}
+.msexperience{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_experience.png);}
+.msmaps{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_map.png);}
+.msschool{background-image:url(http://img.51msyc.com/wx/nimages/user/icon_vip_school.png);}
+.mskefu{background-image:url(http://img.51msyc.com/wx/nimages/user/vip_message_icon.png);}
+.msdown{background-image:url(http://img.51msyc.com/wx/nimages/user/vip_down_icon.png);}
+.vipwallet{background-image:url(http://img.51msyc.com/wx/nimages/user/vip_wallet_icon.png);} 
+.msbusess{background-image:url(http://img.51msyc.com/wx/nimages/user/shop_commerce_icon.png);}
+/* 用户登录 */
+.logback{width:45px; height:45px;display:-webkit-box!important;display:-moz-box!important;display:box!important; background-position:center center; background-repeat:no-repeat;-moz-background-size:80%!important;-webkit-background-size:80%!important;background-size:80%!important;background-color:rgba(0,0,0,0.6); -webkit-border-radius:50%;border-radius:50%; position: absolute; left:10px; top:10px; z-index:15;}
+.lognew{height:100%; margin:0; padding:0;}
+.lognewbox{height:100%;top:0;left:0;right:0;bottom:0;
+  background-position: center center;background-repeat: no-repeat;
+  -webkit-background-size:100% auto;background-size:100% auto; position:absolute; z-index:0;}
+.lognewlogo{padding-top:14%;top:25%;left:30%;right:30%;position:absolute; z-index:30;background:url(http://img.51msyc.com/wx/nimages/inslogo.png) no-repeat center center;-webkit-background-size:100% 100%;background-size:100% 100%;}
+.lognewcon{top:37%;left:10%;right:10%;position:absolute; z-index:20;}
+.lognewcon .lognewinput{height:30px; line-height:30px; background-color:rgba(0,0,0,0.5);margin:5px 0; border:none; vertical-align:top;-webkit-border-radius:33px;border-radius:33px;color:#fff; border:1px rgba(0,0,0,0) solid;}
+.lognewcon .lognewinput:focus{background-color:rgba(0,0,0,0.1);border:1px rgba(255,255,255,0.4) solid; color:#fff;}
+.lognewcon .lognewbtn{width:100%;height:46px; line-height:44px; display:block;background-color:#7E56C6;border:1px #7E56C6 solid;color:#ccc; padding:0;-webkit-border-radius:33px;border-radius:33px;}
+.lognewcon .loguser{width:75%;padding:8px 5% 8px 20%;background-image:url(http://img.51msyc.com/wx/nimages/login_uesr.png);background-repeat:no-repeat; background-position:8% center;-moz-background-size:18px 18px;-webkit-background-size:18px 18px;background-size:18px 18px;}
+.lognewcon .logpass{width:65%;padding:8px 15% 8px 20%;background-image:url(http://img.51msyc.com/wx/nimages/login_password.png);background-repeat:no-repeat; background-position:8% center;-moz-background-size:18px 18px;-webkit-background-size:18px 18px;background-size:18px 18px;}
+.lognewother{bottom:5%;left:10%;right:10%;position:absolute; z-index:5;color:#AAA;}
+.lognewother ul{display:-webkit-box!important;display:-moz-box!important;display:box!important;}
+.lognewother li{ overflow:hidden;}
+.lognewother li .nicoa{width:40px;height:40px; line-height:40px; display:block;background-color:rgba(255,255,255,0.3);-webkit-border-radius:20px;border-radius:20px; margin:0 auto;}
+.lognewother li .nicob{width:40px;height:40px; line-height:40px; display:block;background-color:rgba(255,255,255,0.7);-webkit-border-radius:20px;border-radius:20px;margin:0 auto;}
+.lognewother li .ntext{width:100%; text-align:center;display:block; padding-top:8px;}
+.logzhuc{background-image:url(http://img.51msyc.com/wx/nimages/login_zc.png);background-repeat:no-repeat; background-position:center center;-webkit-background-size:20px 20px;background-size:20px 20px;}
+.logweix{background-image:url(http://img.51msyc.com/wx/nimages/login_wx.png);background-repeat:no-repeat; background-position:center center;-webkit-background-size:20px 20px;background-size:20px 20px;}
+.logsuo{background-image:url(http://img.51msyc.com/wx/nimages/login_suo.png);background-repeat:no-repeat; background-position:center center;-webkit-background-size:20px 20px;background-size:20px 20px;}
+
+.togglepass{width:18px;height:18px;color:#999;border-radius:80% 20%;-webkit-transform:rotate(45deg);transform:rotate(45deg);border:2px solid;border-width:2px 1px 1px 2px;display:inline-block;vertical-align:middle;font-style:normal;text-align:left;text-indent:-9999px;direction:ltr;box-sizing:border-box; position: absolute; top: 50%; right: 9px;margin-top:-9px;}
+.togglepass.dianpass{color:#7E56C6;}
+.togglepass:before{width:9px;height:9px;position:absolute;left:50%;top:50%;content:'';pointer-events:none;border-radius:50%;box-shadow:0 -3px 0 3px inset;-webkit-transform:translate(-50%,-50%);transform:translate(-50%,-50%);}
+/* 注册账号 文本框*/
+.textFile-transparent{ top:0; left:0; right:0; height:100%; opacity:0; filter:alpha(opacity=0); cursor:pointer;}
+.down-arrow:before{ position:absolute; content:""; right:10px; top:50%; margin-top:-5px; width:6px; height:10px; background:url(http://img.51msyc.com/wx/nimages/icon_right.png) no-repeat center center; background-size:6px 10px;}
+
+.register-box .input-noneLine{ background:none; border:none;}
+.register-box .btn-code{ width:120px;  top:0; right:0;bottom: 0; border:none;}
+.register-box .pr90{ padding-right:90px;}
+.red_wx_icon{ width: 20px; height: 20px; background-image:url(../nimages/login_wenxin_icon.png);-webkit-background-size: cover}
+.red_phone_icon{ width: 20px; height: 20px; background-image:url(../nimages/login_direct_icon.png); background-size: cover;-webkit-background-size: cover}
+.regBtn img{width: 20px!important; height: 20px;}
+.regBtn:after{width: 200%;height: 200%;content: " ";position: absolute;top: 0;left: 0;border: 2px solid #D9D9D9;
+  -webkit-transform: scale(0.5);-ms-transform: scale(0.5);transform: scale(0.5);
+  -webkit-transform-origin:0 0;-ms-transform-origin: 0 0;transform-origin: 0 0; border-radius:5px;-webkit-border-radius:5px; }
+
+/*编辑个人信息*/
+.edit-profile li:after{ width:200%; height:1px; content:" "; position:absolute; bottom:-1px; left:10px; border-top:1px solid #ededed; -webkit-transform:scale(0.5); -ms-transform:scale(0.5); transform:scale(0.5); -webkit-transform-origin:0 0; -ms-transform-origin:0 0; transform-origin:0 0;}
+.edit-profile li .photo{ width:60px; height:60px; border:solid 1px #dfdfdf; top:0px; right:0px; background: url(http://img.51msyc.com/wx/nimages/head_portrait.jpg) no-repeat center center; -moz-background-size:100% 100%; -webkit-background-size:100% 100%; background-size:100% 100%;}
+  
+.pl35{padding-left:35px;}
+.agreebtnbox{width: 15px;height:15px;border:1px solid #DBDBDB;/*border-radius: 50%;*/background: #F5F7F9;color:#fff;cursor: pointer;display: inline-block;outline: 0;position: absolute;
+z-index: 1000;left:10px;top:3px;} 
+.agreebtnbox::after {  width:15px;  height: 15px; content: '';  display: block;  z-index: 100;  position: absolute;  left: -1px;  top: -1px;}
+.agreebtnbox:checked::after{background: url(http://img.51msyc.com/wx/nimages/tickico.png) no-repeat center center #7E56C6;content: '';display: block;z-index: 100;-moz-background-size: 12px 12px; -webkit-background-size: 12px 12px;  background-size: 10px 10px;}
+
+
+.edit-profile li .upload-photo{ top:0; left:0; bottom:0; right:0; z-index:2; background-repeat:no-repeat; background-position:center center; -webkit-background-size:100% 100%; background-size:100% 100%;}
